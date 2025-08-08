@@ -28,14 +28,32 @@ This project demonstrates my knowledge of **basic C# programming** through the i
 ## Folder Structure
 
 ```
-/ProjectRoot
-│   Program.cs
-│   ConsoleUI.cs
-│   EstadisticasRepository.cs
-│   ResultadoCarrera.cs
-│   resultados.json (ignored in .gitignore)
-│   .gitignore
-│   README.md
+RaceGame/
+├── application/
+│   ├── DTOs/
+│   │   ├── Estadisticas.cs
+│   │   └── ResultadoCarrera.cs
+│   └── service/
+│       └── CarreraService.cs
+├── domain/
+│   └── entities/
+│       ├── Avion.cs
+│       ├── Caballo.cs
+│       ├── Carrera.cs
+│       ├── Carro.cs
+│       ├── Humano.cs
+│       ├── TurnoResultado.cs
+│       └── Vehiculo.cs
+├── infrastructure/
+│   └── repositories/
+|   |     └──EstadisticasRepository
+│   ├── RandomEventGenerator.cs
+├── presentation/
+│   ├── ConsoleUI.cs
+│   └── Program.cs
+├── RaceGame.csproj
+└── RaceGame.sln
+
 ```
 
 ## Example Workflow
