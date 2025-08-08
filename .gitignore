@@ -1,0 +1,32 @@
+﻿# Archivos de compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Archivos de configuración de usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Datos del juego
+resultados.json
+
+# Paquetes NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Configuración local
+.vs/
